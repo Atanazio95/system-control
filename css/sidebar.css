@@ -58,12 +58,22 @@ div.menu ul li svg{
 
 }
 div.menu ul li a {
-    color: #72777a;
+    color: #64a2c9;
     margin-left: 20px;
     text-decoration: none;
     text-transform: uppercase;
 
 }
-div.menu ul li a:hover {
-    color: #4d4d4d;
+div.menu ul li:hover {
+    color:#fff;
+    border-radius: 60px;
+background: rgb(179, 176, 176);}
+
+
+
+div.menu ul li.active {
+    text-decoration: solid #fff;
+    background-color:rgb(207, 202, 202);
+    border-radius: 60px;
+
 }
